@@ -1,0 +1,25 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-linear-gradient(top, #000000, #7902ff);
+  background: -moz-linear-gradient(left, #7902ff, #000000);
+  background: -ms-linear-gradient(bottom, #000000, #7902ff);
+  background: -o-linear-gradient(top, #7902ff, #000000);
+  background: linear-gradient(to left, #000000, #7902ff);
+  color: #ffe600;
+}
+
+a {
+  text-decoration: none;
+  color: #ffe600;
+  transition: 0.5;
+}
+
+a:hover {
+  color: #7b776b;
+}
